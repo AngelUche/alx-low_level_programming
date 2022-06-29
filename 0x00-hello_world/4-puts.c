@@ -1,7 +1,10 @@
-#include <stdio.h>
-\* use to descrpe my programe
-* use main before declaeation 
-*/
+include <stdio.h>
+
+/**
+ * main - Begining of code
+ *
+ * Return: Always 0 (if its succesful)
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
