@@ -1,33 +1,38 @@
 
 #include <stdlib.h>
-
 #include <time.h>
-int main(void)
+#include <stdio.h>
 
 /**
- * main - Entry point
- *Return: Always 1 (Success)
- */
+*main - Entry point
+*Return: Always 0 (Success)
+*/
+
+int main(void)
 
 {
 int n;
-printf("Enter a number: ");
+
+printf("Enter a number: ")
+
 scanf("%d", &n);
 if (n > 0)
+
 {
-printf("is positive\n");
+printf("is positive\n", n);
 }
 
 else if (n < 0)
+
 {
-printf("is negative\n");
+printf("is negative\n", n);
 }
+
 else if (n == 0)
 
 {
-printf(" is zero");
+printf(" is zero", n);
 }
 
 return (0);
-
 }
