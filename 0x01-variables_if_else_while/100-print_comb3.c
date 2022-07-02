@@ -24,6 +24,7 @@ int main(void)
 			{
 			if (num2 != '8' || num1 != '9')
 			}
+	 }
 	}
 
 	putchar('\n');
