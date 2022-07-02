@@ -21,8 +21,9 @@ int main(void)
 			continue;
 			putchar(',');
 			putchar(' ');
+			{
 			if (num2 != '8' || num1 != '9')
-		}
+			}
 	}
 
 	putchar('\n');
