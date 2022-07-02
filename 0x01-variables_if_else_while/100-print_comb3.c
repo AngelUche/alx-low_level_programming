@@ -1,32 +1,30 @@
-
 #include <stdio.h>
 
 /**
- * main - Prints the number combination
- *        a comma followed by a space, in ascending order.
+ *main - print 00 to 99 with no duplicate digits or combos: no 11, no 10 (01)
  *
- * Return: Always 0.
+ *Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int num1, num2;
+	int ones;
+	int tens;
 
-	for (num1 = 0; num1 < 10; num1++)
+	for (tens = '0'; tens <= '9'; tens++) /*increment tens*/
 	{
-		for (num2 = 0; num2 < 10; num2++)
+		for (ones = (tens + 1); ones <= '9'; ones++) /*one's ten+1*/
 		{
-			putchar((num1 % 10) + '0');
-			putchar((num2 % 10) + '0');
-			if (num1 == 9 && num2 == 9)
-			continue;
-			putchar(',');
-			putchar(' ');
-			{
-			if (num2 != '8' || num1 != '9')
-			}
-	 }
-	}
+			putchar(tens);
+			putchar(ones);
 
+			if (tens != '8' || ones != '9') /*print commas*/
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
 	putchar('\n');
 
 	return (0);
