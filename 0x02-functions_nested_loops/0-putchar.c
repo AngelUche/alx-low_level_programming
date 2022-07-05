@@ -1,18 +1,13 @@
-
-#include <main.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * _putchar -  prints "_putchar"
+ * @c: char to be printed
+ * return: c
  */
-int main(void)
-
-
-	{
-
-	_putchar('_');
+int _putchar(int c)
+{
+	_putchar('_')
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -20,7 +15,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-
-return (0);
-
+	_putchar('\n');
+	return (0);
 }
+
