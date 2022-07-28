@@ -17,11 +17,11 @@ int a, *s;
 if (min > max)
 return (NULL);
 
-s = malloc(sizeof(*s) * ((max-min) + 1));
+s = malloc(sizeof(*s) * ((max - min) + 1));
 
 if (s == 0)
 return (NULL);
-for(a = 0; min <= max; a++, min++)
+for (a = 0; min <= max; a++, min++)
 s[a] = min;
 return (s);
 }
