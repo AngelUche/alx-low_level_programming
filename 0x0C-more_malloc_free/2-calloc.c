@@ -15,12 +15,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	char *s;
 	unsigned int a;
 
-	if (nmeb == 0 || size == 0)
+	if (nmemb == 0 || size == 0)
 		return (NULL);
-	s = malloc(nmeb * size);
+	s = malloc(nmemb * size);
 	if (s == NULL)
 		return (NULL);
-	for (a = 0; b < (nmeb * size)
+	for (a = 0; b < (nmemb * size)
 			s(a) = 0;
 			return (s);
 }
