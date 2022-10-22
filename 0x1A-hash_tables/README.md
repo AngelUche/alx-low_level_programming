@@ -3,7 +3,7 @@
 
 **Read or watch:**
 
-    What is a HashTable Data Structure - Introduction to Hash Tables , Part 0
+    [What is a HashTable Data Structure - Introduction to Hash Tables , Part 0[(https://alx-intranet.hbtn.io/rltoken/IQVfdxJlS6jhAgcuUoCseg)
     hash function
     Hash table
 
