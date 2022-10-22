@@ -1,13 +1,13 @@
-#0x1A. C - Hash tables
+#**0x1A. C - Hash tables**
 #Resources
 
-Read or watch:
+**Read or watch:**
 
-    [What is a HashTable Data Structure - Introduction to Hash Tables , Part 0](https://www.youtube.com/watch?v=MfhjkfocRR0)
-    [Hash function](https://en.wikipedia.org/wiki/Hash_function)
-    [Hash table](https://en.wikipedia.org/wiki/Hash_table)
+    What is a HashTable Data Structure - Introduction to Hash Tables , Part 0
+    hash function
+    Hash table
 
-Learning Objectives
+**Learning Objectives**
 
 At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/), without the help of Google:
 General
