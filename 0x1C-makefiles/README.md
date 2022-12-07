@@ -42,4 +42,4 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 # More Info
 **Files**
 
-In the following tasks, we are going to use t[hese files](https://github.com/holbertonschool/0x1B.c). We want to compile these only.
+In the following tasks, we are going to use [these files](https://github.com/holbertonschool/0x1B.c). We want to compile these only.
